@@ -1,0 +1,16 @@
+# Ignore WordPress core
+/wp-admin/
+/wp-includes/
+
+# Ignore uploaded media
+/wp-content/uploads/
+
+# Ignore WP config, sensitive files
+wp-config.php
+
+# Ignore core plugins, only track your own
+!/wp-content/plugins/my-custom-plugin
+
+# Ignore everything except custom themes/plugins
+/wp-content/themes/*/
+!/wp-content/themes/your-custom-theme/
